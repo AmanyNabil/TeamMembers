@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.happybirthday.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@android:color/white"
+        >
+
+        <ImageView android:id="@+id/imgLogoTeam"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo4"
+
+            />
+        <TextView
+            android:id="@+id/txtTeamHeader"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Team 4 Members"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-condensed"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bnr"
+        android:scaleType="centerCrop"
+        />
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:paddingTop="10dp"
+         android:id="@+id/scrollView">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp">
+                     <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/girl2"
+                     />
+                     <TextView
+                         android:id="@+id/txtTeamAmany"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Amany Nabil"
+                         android:textAlignment="center"
+                         android:padding="15dp"
+                         android:textSize="20sp"
+                         android:fontFamily="Roboto"
+                         />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy1"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamMastafa"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Mostafa"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy3"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamAbdelWahab"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Abd El-Wahab"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/girl1"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamRasha"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Rasha"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy2"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamMohaned"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Mohaned"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy4"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamAmine"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Amine"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/girl3"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamMariam"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Mariam"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy1"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamGedo"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Al-Ostoora Gedo"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp"
+                 >
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:scaleType="centerCrop"
+                     android:background="@drawable/boy2"
+                     />
+                 <TextView
+                     android:id="@+id/txtTeamMohamed"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Mohamed Adly"
+                     android:textAlignment="center"
+                     android:padding="15dp"
+                     android:textSize="20sp"
+                     android:fontFamily="Roboto"
+                     />
+
+             </LinearLayout>
+         </LinearLayout>
+
+
+
+     </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:background="@drawable/bgfooter"
+        >
+        <ImageView
+            android:id="@+id/icnFaceLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/facelogo2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/icnFaceLogo"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:text="|"
+            android:id="@+id/txtspl" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/txtspl"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:text="https://www.facebook.com/groups/1779258102373549"
+            android:id="@+id/textView" />
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
