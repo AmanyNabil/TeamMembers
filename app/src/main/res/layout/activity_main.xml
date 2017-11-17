@@ -9,41 +9,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
         android:background="@android:color/white"
         >
 
-        <ImageView android:id="@+id/imgLogoTeam"
-            android:layout_width="120dp"
+        <ImageView
+            android:id="@+id/imgLogoTeam"
+            android:layout_width="111dp"
             android:layout_height="50dp"
             android:scaleType="centerCrop"
             android:src="@drawable/logo4"
 
             />
+
         <TextView
             android:id="@+id/txtTeamHeader"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
             android:text="Team 4 Members"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:paddingLeft="15dp"
-            android:textSize="30sp"
-            android:textStyle="bold"
             android:textColor="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-condensed"
-            />
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
     </LinearLayout>
 
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/bnr"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/bnr" />
 
      <ScrollView
          android:layout_width="match_parent"
@@ -57,62 +57,59 @@
              android:layout_height="match_parent"
              android:orientation="vertical"
              >
+
              <LinearLayout
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
-                 android:orientation="horizontal"
-                 android:padding="10dp">
-                     <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
-                     android:scaleType="centerCrop"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:background="@drawable/girl2"
-                     />
-                     <TextView
-                         android:id="@+id/txtTeamAmany"
-                         android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:text="Amany Nabil"
-                         android:textAlignment="center"
-                         android:padding="15dp"
-                         android:textSize="20sp"
-                         android:fontFamily="Roboto"
-                         />
+                     android:scaleType="centerCrop" />
+
+                 <TextView
+                     android:id="@+id/txtTeamAmany"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:padding="15dp"
+                     android:text="Amany Nabil"
+                     android:textAlignment="center"
+                     android:textSize="20sp" />
 
              </LinearLayout>
+
              <LinearLayout
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
-                 android:orientation="horizontal"
-                 android:padding="10dp"
-                 >
+                 android:orientation="horizontal">
+
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
-                     android:scaleType="centerCrop"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:background="@drawable/boy1"
-                     />
+                     android:scaleType="centerCrop" />
+
                  <TextView
                      android:id="@+id/txtTeamMastafa"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
+                     android:fontFamily="Roboto"
+                     android:padding="15dp"
                      android:text="Mostafa"
                      android:textAlignment="center"
-                     android:padding="15dp"
-                     android:textSize="20sp"
-                     android:fontFamily="Roboto"
-                     />
+                     android:textSize="20sp" />
 
              </LinearLayout>
              <LinearLayout
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/boy3"
                      />
@@ -132,11 +129,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/girl1"
                      />
@@ -156,11 +152,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/boy2"
                      />
@@ -180,11 +175,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/boy4"
                      />
@@ -204,11 +198,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/girl3"
                      />
@@ -228,11 +221,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/boy1"
                      />
@@ -252,11 +244,10 @@
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:padding="10dp"
                  >
                  <ImageView
-                     android:layout_width="50dp"
-                     android:layout_height="50dp"
+                     android:layout_width="55dp"
+                     android:layout_height="match_parent"
                      android:scaleType="centerCrop"
                      android:background="@drawable/boy2"
                      />
@@ -280,14 +271,14 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/bgfooter"
         >
         <ImageView
             android:id="@+id/icnFaceLogo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:scaleType="centerCrop"
             android:layout_alignParentLeft="true"
             android:background="@drawable/facelogo2"
@@ -295,23 +286,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/icnFaceLogo"
             android:layout_centerVertical="true"
             android:textColor="@android:color/white"
             android:text="|"
             android:id="@+id/txtspl" />
+
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="12sp"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/txtspl"
-            android:layout_centerVertical="true"
-            android:textColor="@android:color/white"
+            android:fontFamily="serif-monospace"
             android:text="https://www.facebook.com/groups/1779258102373549"
-            android:id="@+id/textView" />
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
 
 
 
